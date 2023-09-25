@@ -6,7 +6,7 @@ public class Hand {
 	private double initialBet;
 	private int playerHandTotal;
 	private int dealerHandTotal;
-	private String winOrLoss;
+	private String winLoss;
 	private double amountWon;
 	private Player player;
 	
@@ -35,11 +35,11 @@ public class Hand {
 	public void setDealerHandTotal(int dealerHandTotal) {
 		this.dealerHandTotal = dealerHandTotal;
 	}
-	public String getWinOrLoss() {
-		return winOrLoss;
+	public String getWinLoss() {
+		return winLoss;
 	}
-	public void setWinOrLoss(String winOrLoss) {
-		this.winOrLoss = winOrLoss;
+	public void setWinLoss(String winLoss) {
+		this.winLoss = winLoss;
 	}
 	public double getAmountWon() {
 		return amountWon;

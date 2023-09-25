@@ -1,5 +1,7 @@
 package bootcamp.java.blackjack.library.models;
 
+import java.util.Date;
+
 public class Player {
 	
 	private int id;
@@ -8,6 +10,7 @@ public class Player {
 	private String username;
 	private String password;
 	private double wallet;
+	private Date dateCreated;
 	private double winnings;
 	
 	/* Getters & Setters */
@@ -46,6 +49,12 @@ public class Player {
 	}
 	public void setWallet(double wallet) {
 		this.wallet = wallet;
+	}
+	public Date getDateCreated() {
+		return dateCreated;
+	}
+	public void setDateCreated(Date dateCreated) {
+		this.dateCreated = dateCreated;
 	}
 	public double getWinnings() {
 		return winnings;
